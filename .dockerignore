@@ -1,0 +1,22 @@
+# node modules - never copy to Docker
+node_modules
+
+# React build output - will be rebuilt in the image
+build
+
+# Logs
+*.log
+
+# dotenv environment variables
+.env
+.env.* 
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Docker and Git metadata
+.dockerignore
+Dockerfile
+.git
+.gitignore
